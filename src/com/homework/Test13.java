@@ -1,9 +1,25 @@
 package com.homework;
 
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+
 public class Test13 {
 
 	public static void main(String[] args) {
-		System.out.println(romanToInt("III"));;
+	    Map<String, String> map = new LinkedHashMap<>();
+	    map.put("4", "ppp4");
+	    map.put("0", "ppp");
+	    map.put("1", "ppp1");
+	    map.put("2", "ppp2");
+	    map.put("3", "ppp3");
+	    System.out.println(map.get(map.keySet().iterator().next()));
+	    System.out.println(JSONObject.toJSONString(null));
+	    Integer a = null;
+	    System.out.println(a == 2);
 	}
 	
 	private static int romanCharToInt(char ch) {

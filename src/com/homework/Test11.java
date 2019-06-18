@@ -1,10 +1,26 @@
 package com.homework;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import com.homework.entity.ClassA;
+
 public class Test11 {
 
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) throws Exception {
+		deepCopy();
 	}
+	
+	public static <T> T deepCopy() throws Exception {
+	    StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
+        for (StackTraceElement e : stackTrace) {
+            if (e.getClassName().equals("com.homework.Test11")) {
+                System.out.println(e.getClassName() + "\t"
+                        + e.getMethodName() + "\t" + e.getLineNumber());
+                return null;
+            }
+        }
+        return null;
+    }
 	
 	public int maxArea(int[] height) {
 
