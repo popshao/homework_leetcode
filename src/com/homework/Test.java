@@ -18,6 +18,8 @@ public class Test {
     static Map<String, List<String>> forList = new HashMap<>();
     
 	public static void main(String[] args) throws ParseException {
+	    Test t = null;
+	    t.decodeUnicode("");
 	    Double d = new Double(10050);
 	    
 		System.out.println(d > 10000);
