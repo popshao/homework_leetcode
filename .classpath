@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_181"/>
-	<classpathentry kind="lib" path="D:/git/homework_leetcode/lib/httpcore-4.2.2.jar"/>
-	<classpathentry kind="lib" path="D:/git/homework_leetcode/lib/fastjson-1.2.47.jar" sourcepath="D:/maven_repository/com/alibaba/fastjson/1.2.47/fastjson-1.2.47-sources.jar"/>
-	<classpathentry kind="lib" path="D:/git/homework_leetcode/lib/httpclient-4.5.6.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/public_git/homework_leetcode/lib/httpcore-4.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/public_git/homework_leetcode/lib/fastjson-1.2.47.jar" sourcepath="D:/maven_repository/com/alibaba/fastjson/1.2.47/fastjson-1.2.47-sources.jar"/>
+	<classpathentry kind="lib" path="D:/public_git/homework_leetcode/lib/httpclient-4.5.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
