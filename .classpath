@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="scr/resource"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="D:/public_git/homework_leetcode/lib/httpcore-4.2.2.jar"/>
 	<classpathentry kind="lib" path="D:/public_git/homework_leetcode/lib/fastjson-1.2.47.jar" sourcepath="D:/maven_repository/com/alibaba/fastjson/1.2.47/fastjson-1.2.47-sources.jar"/>

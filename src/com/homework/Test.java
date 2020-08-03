@@ -18,11 +18,10 @@ public class Test {
     static Map<String, List<String>> forList = new HashMap<>();
     
 	public static void main(String[] args) throws ParseException {
-	    Test t = null;
-	    t.decodeUnicode("");
-	    Double d = new Double(10050);
-	    
-		System.out.println(d > 10000);
+	    List<String> list = new ArrayList<>();
+	    list.add("18627085405");
+	    list.add("15072448559");
+	    System.out.println(list.hashCode());
 	    
 	}
 	
@@ -38,7 +37,7 @@ public class Test {
             } else {
                 charStr = dataStr.substring(start + 2, end);
             }
-            char letter = (char) Integer.parseInt(charStr, 16); // 16进制parse整形字符串。
+            char letter = (char) Integer.parseInt(charStr, 16); // 16杩涘埗parse鏁村舰瀛楃涓层�
             buffer.append(new Character(letter).toString());
             start = end;
         }
